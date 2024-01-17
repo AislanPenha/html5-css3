@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-color: red;
+    }
+    #hamburguer {
+        display: none;
+    }
+}
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body{
+        background-color: rgb(255, 225, 0);
+    }
+    #hamburguer {
+        display: none;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    nav ul li a{
+        display: inline-block;
+        padding: 10px;
+        border: none;
+    }
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background-color: rgb(0, 157, 255);
+    }
+    #hamburguer {
+        display: none;
+    }
+    nav ul li{
+        display: inline-block;
+    }
+    nav ul li a{
+        display: inline-block;
+        padding: 10px;
+        border: none;
+    }
+    ::-webkit-scrollbar
+    main {
+        width: 50vw;
+    }
+}

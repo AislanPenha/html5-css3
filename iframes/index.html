@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iframes</title>
+    <style>
+        iframe {
+            border: 1px dashed black;
+            width: 500px;
+        }
+        iframe.main {
+            display: block;
+            border: 1px solid black;
+            width: 1000px;
+            height: 800px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>FRAME SEGURO</h1>
+    <iframe src="pages-frame/frame1.html" frameborder="0" referrerpolicy="no-referrer" sandbox="sandbox"></iframe>
+    <ul>
+        <li><a href="pages-frame/frame1.html" target="frame">Página 1</a></li>
+        <li><a href="pages-frame/frame2.html" target="frame">Página 2</a></li>
+        <li><a href="pages-frame/frame3.html" target="frame">Página 3</a></li>
+    </ul>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quod dolor, tempore veniam vel odit ducimus labore eaque, rem, accusamus non nihil recusandae natus voluptates nobis officiis doloremque ipsum corrupti.</p>
+    <iframe frameborder="0" class="main" name="frame" srcdoc="<h2>Essa é uma página estática</h2> <p>Caso não coloque nada no <strong>src</strong>, pode utilizar essa tag <strong>srcdoc</strong>.</p><img src='imagens/logo_empresa.png'>">
+        <p class="erro">Deu ruim pro seu navegador</p>
+    </iframe>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, beatae delectus quod id reprehenderit facere in corrupti blanditiis aut sapiente consectetur illo error ullam eveniet ducimus aliquam odio laborum est!</p>
+    Aqui vai um iframe  <!-- 300x150-->
+   <button onclick="oi()">OIii</button>
+
+</body>
+</html>

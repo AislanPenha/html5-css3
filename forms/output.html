@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário com output</h1>
+    <form action="cadastro.php" method="get">
+        <p>
+            <label for="inum1">Número 1:</label> 
+            <input type="number" name="num1" id="inum1" oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="inum2">Número 2:</label> 
+            <input type="number" name="num2" id="inum2" oninput="isoma.innerHTML = Number(inum1.value) + Number(inum2.value)">
+        </p>
+        <p>
+            <label for="isoma">Soma: </label> 
+            <output name="soma" id="isoma">0</output>
+        </p>
+        <p>
+            <label for="isatisfacao">Satisfação: </label> 
+            <input type="range" name="satisfacao" id="isatisfacao" oninput="iosatisfacao.innerHTML = isatisfacao.value">
+            <output name="osatisfacao" id="iosatisfacao">50</output>
+        </p>
+        <p>
+            <label for="inasc">Ano que nasceu:</label> 
+            <input type="number" name="nasc" id="inasc" oninput="calculaIdade()">
+            <output name="idade" id="idade">0</output>
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+    <script>
+        function calculaIdade(){
+            let anoatual = new Date().getFullYear();
+            idade.innerHTML = Number(anoatual)- Number(inasc.value);
+        }
+
+    </script>
+</body>
+</html>

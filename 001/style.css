@@ -1,0 +1,68 @@
+@font-face {
+    font-family: "Inteligencia";
+    src: url("fonte/Computerfont.ttf");
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: linear-gradient(to right, red 0 40%, blue 50% 90%, cyan 98% 100%);
+    font-family: Inteligencia, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #19d6e8;
+    font-size: 1.2em;
+}
+h1 {
+    font-size: 1.8em;
+    font-weight: normal;
+}
+header{
+    display: block;
+    background-color: #034279;
+    text-align: center;
+    padding: 10px;
+}
+nav {
+    background-color: #0476D9;
+}
+nav ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+nav ul li a {
+    display: block;
+    padding: 15px;
+    box-shadow: 0 0 1px;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    background-color: #04AFBF;
+    color: #0D0D0D;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #0476D9;
+    box-shadow: 1px 0 1px;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+}
+main {
+    width: 80vw;
+    background-color: rgb(61, 61, 61);
+    margin: 10px auto;
+    border-radius: 10px;
+    padding: 15px 30px;
+    box-shadow: 2px 2px 3px #0d0d0d70;
+}
+picture{
+    text-align: center;
+    display: block;
+}
+picture img{
+    border-radius: 20px;
+    padding-bottom: 20px;
+}

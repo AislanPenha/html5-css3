@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collgroup e responsividade</title>
+    <style>
+        div.container {
+            overflow-x: auto;
+        }
+        table {
+            border-collapse: collapse;
+            width: 500px;
+        }
+        table caption {
+            font-weight: bolder;
+            padding: 10px;
+        }
+        table td,th {
+            border: 1px solid black;
+            padding: 8px;
+        }
+        .verde {
+            background-color: chartreuse;
+        }
+        .azul {
+            background-color: cornflowerblue;
+        }
+        .amarelo {
+            background-color: rgb(255, 255, 21);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <table>
+            <colgroup>
+                <col class="amarelo">
+                <col class="verde" span="2">
+                <col class="azul">
+            </colgroup>
+            <caption>Cadastro</caption>
+            <tr>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+                <th>Nome</th>
+                <th>Sexo</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+            </tr>
+            <tr>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Hornalista</td>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Hornalista</td>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Hornalista</td>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Hornalista</td>
+                <td>Ana Maria</td>
+                <td>F</td>
+                <td>25</td>
+                <td>Hornalista</td>
+            </tr>
+            <tr>
+                <td>Claúdio</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Programador</td>
+                <td>Claúdio</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Programador</td>
+                <td>Claúdio</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Programador</td>
+                <td>Claúdio</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Programador</td>
+                <td>Claúdio</td>
+                <td>M</td>
+                <td>18</td>
+                <td>Programador</td>
+            </tr>
+            <tr>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+                <td>Gustavo</td>
+                <td>M</td>
+                <td>42</td>
+                <td>Professor</td>
+            </tr>
+            <tr>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+                <td>Hélio</td>
+                <td>M</td>
+                <td>19</td>
+                <td>Vendedor</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+                <td>Maria</td>
+                <td>F</td>
+                <td>39</td>
+                <td>Médica</td>
+            </tr>
+            <tr>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+                <td>Otávio</td>
+                <td>M</td>
+                <td>22</td>
+                <td>Nutricionista</td>
+            </tr>
+        </table>
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit dignissimos cumque quos deleniti
+        in sed nobis veritatis repudiandae animi, laudantium at ab saepe, quasi et officia necessitatibus fugiat vitae.
+        Temporibus repudiandae consequuntur nemo nobis hic dolore, nihil neque. Nulla, necessitatibus a quos,
+        repellendus repellat sapiente adipisci nobis delectus dolorum officia, velit molestias dolores inventore maiores
+        distinctio animi tempora consequuntur?
+        Iste rem deleniti, dignissimos sequi totam vitae minima! Laboriosam eius cum consequatur culpa neque sunt,
+        reprehenderit obcaecati, similique non magni nesciunt in iste rerum minus placeat tenetur, perspiciatis
+        repellendus nostrum.
+        Nisi quia architecto tempora enim illo ducimus commodi. Amet repellendus doloribus dolor quidem nostrum atque
+        sapiente omnis incidunt ipsum expedita! Quaerat minima sint reiciendis a deleniti fuga laudantium exercitationem
+        unde!
+        Ratione, quis maxime. Impedit ad optio necessitatibus a illo eaque voluptatum fuga quos odio! Perferendis magni
+        ullam aspernatur accusamus debitis optio quasi, distinctio atque non, odio velit numquam rem unde!
+        Assumenda eaque, reprehenderit odio distinctio vitae reiciendis illum officia vero est et facere, aspernatur,
+        sapiente magnam. Soluta quam iusto aliquam veritatis pariatur distinctio corporis beatae maiores, molestias vero
+        harum repellat.
+        Culpa eius atque ipsam alias eaque ad perferendis quidem vitae provident, ullam laboriosam distinctio soluta
+        nisi, ab repellat officiis est nesciunt hic optio! Suscipit, minima dolores! Vel facere mollitia reiciendis!
+        Ipsa placeat in voluptatibus voluptas quia deserunt, id laborum error facere. Odit quo ipsum beatae rerum iure
+        et voluptas facilis praesentium, accusamus soluta fugiat earum deserunt rem harum dicta est.
+        Deserunt accusantium omnis et? Nostrum porro nesciunt non nemo labore deleniti corporis necessitatibus
+        voluptates autem? Corrupti quo, hic laudantium a porro dolorem ipsum possimus excepturi repellat molestias autem
+        ratione voluptatem.
+        Fugiat alias fugit dolore excepturi, nihil nostrum molestiae saepe numquam laboriosam expedita error vel!
+        Eveniet accusamus velit sunt officiis quisquam quis doloribus voluptatem in inventore dignissimos, non culpa
+        minus perferendis.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit dignissimos cumque quos deleniti
+        in sed nobis veritatis repudiandae animi, laudantium at ab saepe, quasi et officia necessitatibus fugiat vitae.
+        Temporibus repudiandae consequuntur nemo nobis hic dolore, nihil neque. Nulla, necessitatibus a quos,
+        repellendus repellat sapiente adipisci nobis delectus dolorum officia, velit molestias dolores inventore maiores
+        distinctio animi tempora consequuntur?
+        Iste rem deleniti, dignissimos sequi totam vitae minima! Laboriosam eius cum consequatur culpa neque sunt,
+        reprehenderit obcaecati, similique non magni nesciunt in iste rerum minus placeat tenetur, perspiciatis
+        repellendus nostrum.
+        Nisi quia architecto tempora enim illo ducimus commodi. Amet repellendus doloribus dolor quidem nostrum atque
+        sapiente omnis incidunt ipsum expedita! Quaerat minima sint reiciendis a deleniti fuga laudantium exercitationem
+        unde!
+        Ratione, quis maxime. Impedit ad optio necessitatibus a illo eaque voluptatum fuga quos odio! Perferendis magni
+        ullam aspernatur accusamus debitis optio quasi, distinctio atque non, odio velit numquam rem unde!
+        Assumenda eaque, reprehenderit odio distinctio vitae reiciendis illum officia vero est et facere, aspernatur,
+        sapiente magnam. Soluta quam iusto aliquam veritatis pariatur distinctio corporis beatae maiores, molestias vero
+        harum repellat.
+        Culpa eius atque ipsam alias eaque ad perferendis quidem vitae provident, ullam laboriosam distinctio soluta
+        nisi, ab repellat officiis est nesciunt hic optio! Suscipit, minima dolores! Vel facere mollitia reiciendis!
+        Ipsa placeat in voluptatibus voluptas quia deserunt, id laborum error facere. Odit quo ipsum beatae rerum iure
+        et voluptas facilis praesentium, accusamus soluta fugiat earum deserunt rem harum dicta est.
+        Deserunt accusantium omnis et? Nostrum porro nesciunt non nemo labore deleniti corporis necessitatibus
+        voluptates autem? Corrupti quo, hic laudantium a porro dolorem ipsum possimus excepturi repellat molestias autem
+        ratione voluptatem.
+        Fugiat alias fugit dolore excepturi, nihil nostrum molestiae saepe numquam laboriosam expedita error vel!
+        Eveniet accusamus velit sunt officiis quisquam quis doloribus voluptatem in inventore dignissimos, non culpa
+        minus perferendis.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit dignissimos cumque quos deleniti
+        in sed nobis veritatis repudiandae animi, laudantium at ab saepe, quasi et officia necessitatibus fugiat vitae.
+        Temporibus repudiandae consequuntur nemo nobis hic dolore, nihil neque. Nulla, necessitatibus a quos,
+        repellendus repellat sapiente adipisci nobis delectus dolorum officia, velit molestias dolores inventore maiores
+        distinctio animi tempora consequuntur?
+        Iste rem deleniti, dignissimos sequi totam vitae minima! Laboriosam eius cum consequatur culpa neque sunt,
+        reprehenderit obcaecati, similique non magni nesciunt in iste rerum minus placeat tenetur, perspiciatis
+        repellendus nostrum.
+        Nisi quia architecto tempora enim illo ducimus commodi. Amet repellendus doloribus dolor quidem nostrum atque
+        sapiente omnis incidunt ipsum expedita! Quaerat minima sint reiciendis a deleniti fuga laudantium exercitationem
+        unde!
+        Ratione, quis maxime. Impedit ad optio necessitatibus a illo eaque voluptatum fuga quos odio! Perferendis magni
+        ullam aspernatur accusamus debitis optio quasi, distinctio atque non, odio velit numquam rem unde!
+        Assumenda eaque, reprehenderit odio distinctio vitae reiciendis illum officia vero est et facere, aspernatur,
+        sapiente magnam. Soluta quam iusto aliquam veritatis pariatur distinctio corporis beatae maiores, molestias vero
+        harum repellat.
+        Culpa eius atque ipsam alias eaque ad perferendis quidem vitae provident, ullam laboriosam distinctio soluta
+        nisi, ab repellat officiis est nesciunt hic optio! Suscipit, minima dolores! Vel facere mollitia reiciendis!
+        Ipsa placeat in voluptatibus voluptas quia deserunt, id laborum error facere. Odit quo ipsum beatae rerum iure
+        et voluptas facilis praesentium, accusamus soluta fugiat earum deserunt rem harum dicta est.
+        Deserunt accusantium omnis et? Nostrum porro nesciunt non nemo labore deleniti corporis necessitatibus
+        voluptates autem? Corrupti quo, hic laudantium a porro dolorem ipsum possimus excepturi repellat molestias autem
+        ratione voluptatem.
+        Fugiat alias fugit dolore excepturi, nihil nostrum molestiae saepe numquam laboriosam expedita error vel!
+        Eveniet accusamus velit sunt officiis quisquam quis doloribus voluptatem in inventore dignissimos, non culpa
+        minus perferendis.</p>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus reprehenderit dignissimos cumque quos deleniti
+        in sed nobis veritatis repudiandae animi, laudantium at ab saepe, quasi et officia necessitatibus fugiat vitae.
+        Temporibus repudiandae consequuntur nemo nobis hic dolore, nihil neque. Nulla, necessitatibus a quos,
+        repellendus repellat sapiente adipisci nobis delectus dolorum officia, velit molestias dolores inventore maiores
+        distinctio animi tempora consequuntur?
+        Iste rem deleniti, dignissimos sequi totam vitae minima! Laboriosam eius cum consequatur culpa neque sunt,
+        reprehenderit obcaecati, similique non magni nesciunt in iste rerum minus placeat tenetur, perspiciatis
+        repellendus nostrum.
+        Nisi quia architecto tempora enim illo ducimus commodi. Amet repellendus doloribus dolor quidem nostrum atque
+        sapiente omnis incidunt ipsum expedita! Quaerat minima sint reiciendis a deleniti fuga laudantium exercitationem
+        unde!
+        Ratione, quis maxime. Impedit ad optio necessitatibus a illo eaque voluptatum fuga quos odio! Perferendis magni
+        ullam aspernatur accusamus debitis optio quasi, distinctio atque non, odio velit numquam rem unde!
+        Assumenda eaque, reprehenderit odio distinctio vitae reiciendis illum officia vero est et facere, aspernatur,
+        sapiente magnam. Soluta quam iusto aliquam veritatis pariatur distinctio corporis beatae maiores, molestias vero
+        harum repellat.
+        Culpa eius atque ipsam alias eaque ad perferendis quidem vitae provident, ullam laboriosam distinctio soluta
+        nisi, ab repellat officiis est nesciunt hic optio! Suscipit, minima dolores! Vel facere mollitia reiciendis!
+        Ipsa placeat in voluptatibus voluptas quia deserunt, id laborum error facere. Odit quo ipsum beatae rerum iure
+        et voluptas facilis praesentium, accusamus soluta fugiat earum deserunt rem harum dicta est.
+        Deserunt accusantium omnis et? Nostrum porro nesciunt non nemo labore deleniti corporis necessitatibus
+        voluptates autem? Corrupti quo, hic laudantium a porro dolorem ipsum possimus excepturi repellat molestias autem
+        ratione voluptatem.
+        Fugiat alias fugit dolore excepturi, nihil nostrum molestiae saepe numquam laboriosam expedita error vel!
+        Eveniet accusamus velit sunt officiis quisquam quis doloribus voluptatem in inventore dignissimos, non culpa
+        minus perferendis.</p>
+</body>
+</html>

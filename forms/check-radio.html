@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check e radio</title>
+</head>
+<body>
+    <h1>Mais exemplos de formulário</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo:</legend>
+            <input type="radio" name="sexo" id="isxfem" value="M"> <label for="isxfem">Masculino</label><br>
+            <input type="radio" name="sexo" id="isxmasc" value="F"> <label for="isxmasc">Femenino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes favoritos:</legend>
+            <input type="checkbox" name="futebol" id="ifutebol" checked> <label for="ifutebol">Futebol</label><br>
+            <input type="checkbox" name="volei" id="ivolei"> <label for="ivolei">Vôlei</label><br>
+            <input type="checkbox" name="basquete" id="ibasquete"> <label for="ibasquete">Basquete</label><br>
+            <input type="checkbox" name="natacao" id="inatacao"> <label for="inatacao">Natação</label><br>
+            <input type="checkbox" name="tenis" id="itenis"> <label for="itenis">Tênis</label>
+        </fieldset>
+        <label for="icor">Cor:</label> <input type="color" name="cor" id="icor" value="#00ff00"> <br>
+        <label for="isatisfacao">Nivel de satisfação:</label> <input type="range" name="satisfacao" id="isatisfacao" min="1" max="10" value="8"><br>
+        <label for="ifoto">Foto de perfil:</label> <input type="file" name="foto" id="ifoto"><br>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resposive menu</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-queries.css">
+</head>
+
+<body onresize="funcionarMemu()">
+    <header>
+        <h1>Notícias fa fsaf</h1>
+    </header>
+    <nav>
+        <span id="hamburguer" class="material-symbols-outlined" onclick="abrirMenu()">menu</span>
+        <ul id="lista" style="display: none;">
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Meu site muito bonito feito top</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus laborum voluptate vitae adipisci blanditiis, quas vel recusandae fuga, illum ullam repellat voluptatem. Perspiciatis totam architecto repellat reiciendis optio consectetur omnis.
+        Officia quas quis minus hic quam. Quis, magnam, velit doloremque obcaecati quisquam ex quibusdam natus nesciunt nulla eaque blanditiis. Libero impedit laudantium dolorem natus repellat ut ipsam odio cupiditate quidem?
+        Commodi, eligendi. Dolorum, nostrum ut. Reprehenderit distinctio totam porro ipsam corrupti. Facere sit reiciendis distinctio possimus fugiat assumenda quod ullam quisquam magni, maxime excepturi alias similique atque laborum a repellendus.
+        Illum velit mollitia aperiam consectetur commodi rem quasi dolorum omnis fugit eligendi hic fugiat minima doloribus non debitis aspernatur perspiciatis eaque, nihil consequuntur ea molestias cupiditate in a. Ratione, totam.
+        Accusantium rerum tempora odio animi hic laudantium illum perferendis, facere minima reiciendis quibusdam? Deserunquuntur oe debitis minus illo mollitia deserunt, molestiae eos nobis iusto laboriosam nostrum beatae consequatur iste dolores id. Magnam beatae fuga distinctio temporibus!</p>
+    </main>
+    <script>
+        function abrirMenu(){
+            if(lista.style.display == 'none'){
+                lista.style.display = 'block';
+            }else{
+                lista.style.display = 'none';
+            }
+        }
+        function funcionarMemu(){
+            if(window.innerWidth >= 768){
+                lista.style.display = 'block';
+            }else{
+                lista.style.display = 'none';
+            }
+        }
+    </script>
+</body>
+
+</html>

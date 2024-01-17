@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Posições relativa e abosulta</title>
+    <style>
+        .container {
+            position: relative;
+            background: url('images/target001.png');
+            background-size: 100% 100%;
+            background-color: rgba(255, 0, 0, 0.519);
+            border: 2px solid black;
+            height: 400px;
+        }
+        .conteudo {
+           position: absolute;
+           background: url('images/target001.png');
+            background-size: 100% 100%;
+            background-color: aqua;
+            width: 100px;
+            height: 100px;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="conteudo"></div>
+    </div>
+</body>
+</html>
