@@ -2,7 +2,7 @@
 ## Principais projetos
 1. [Cordel Moderno](https://aislanpenha.github.io/html5-css3/projeto-cordel/) :pinata:
 2. [Curisosidades Tecnológicas](https://aislanpenha.github.io/html5-css3/projeto-final/) :robot:
-3. [Redes Sociais](https://aislanpenha.github.io/html5-css3/projeto-final/) :robot:
+3. [Redes Sociais](https://aislanpenha.github.io/html5-css3/projeto-rede-sociais/) :busts_in_silhouette:
 ## Principais projetos
 1. **[Cordel](https://aislanpenha.github.io/html5-css3/projeto-cordel/) :pinata:**
 2. **https://aislanpenha.github.io/html5-css3/projeto-cordel :pinata:**
