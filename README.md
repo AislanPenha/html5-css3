@@ -1,5 +1,5 @@
 # Aprendendo um pouco sobre HTML5 e CSS3
-## Principais projetos
+## ✒️ Principais projetos
 1. [Cordel Moderno](https://aislanpenha.github.io/html5-css3/projeto-cordel/) :pinata:
 2. [Curisosidades Tecnológicas](https://aislanpenha.github.io/html5-css3/projeto-final/) :robot:
 3. [Redes Sociais](https://aislanpenha.github.io/html5-css3/projeto-rede-sociais/) :busts_in_silhouette:
@@ -8,5 +8,9 @@
 
 >Estou disponibilizando alguns dos meus projetos em HTML e CSS para estudo.
 >
+## ✒️ Tecnologias
+![Static Badge](https://img.shields.io/badge/HTML-blank?logo=html5)
+![Static Badge](https://img.shields.io/badge/CSS-blank?logo=css3)
+![Static Badge](https://img.shields.io/badge/JavaScript-blank?logo=javascript&color=black)
 
 ### Texto produzido por: [Aislan Penha](https://github.com/AislanPenha)
