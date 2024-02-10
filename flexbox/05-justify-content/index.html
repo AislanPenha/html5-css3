@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexble BOX - CSS</title>
+</head>
+<style>
+    .container1 {
+        background-color: aquamarine;
+        display: flex; 
+        flex-flow: row nowrap; 
+        justify-content: space-between;  /* Alem desses alinhamentos de espaçamento */
+    }                                    /* Tem flex-start flex-end center */
+    .container2 {                        /* Todos em relação ao main-axis */
+        background-color: aquamarine;
+        display: flex; 
+        flex-flow: row nowrap; 
+        justify-content: space-around;
+    }
+    
+    .container3 {
+        background-color: aquamarine;
+        display: flex; 
+        flex-flow: row nowrap; 
+        justify-content: space-evenly;
+    }
+    .items {
+        background-color: salmon;
+        border: 1px solid black;
+        /*flex: auto;*/
+    }
+</style>
+<body>
+    <h2>Space Between</h2>
+    <div class="container1">
+        <div class="items">Conteúdo 1 fdsfffffffffffffffffffgf</div>
+        <div class="items">Conteúdo 2</div>
+        <div class="items">Conteúdo 3</div>
+        <div class="items">Conteúdo 4</div>
+    </div>
+    <hr>
+    <h2>Space Around</h2>
+    <div class="container2">
+        <div class="items">Conteúdo 1 fdsfffffffffffffffffffgf</div>
+        <div class="items">Conteúdo 2</div>
+        <div class="items">Conteúdo 3</div>
+        <div class="items">Conteúdo 4</div>
+    </div>
+    <hr>
+    <h2>Space Evenly</h2>
+    <div class="container3">
+        <div class="items">Conteúdo 1 fdsfffffffffffffffffffgf</div>
+        <div class="items">Conteúdo 2</div>
+        <div class="items">Conteúdo 3</div>
+        <div class="items">Conteúdo 4</div>
+    </div>
+</body>
+</html>
